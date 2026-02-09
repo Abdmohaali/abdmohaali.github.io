@@ -1,0 +1,36 @@
+body {
+    background-color: darkslateblue;
+    flex-wrap: wrap;
+}
+
+h1 {
+    background-color: azure;
+}
+
+h2 {
+    background-color: aliceblue;
+}
+
+p {
+    color: wheat;
+}
+
+nav {
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+nav a {
+    color: aliceblue;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 3em;
+    background-color: darkgrey;
+}
+
+nav a.active {
+    background-color: #13125a;
+}
