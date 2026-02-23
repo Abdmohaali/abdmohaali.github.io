@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.slotmachine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#symbolContainer1 {
+    float: left;
+}
+
+#symbolContainer2 {
+    float: left;
+}
+
+#symbolContainer3 {
+    float: left;
+}
+
+.reel {
+    width: 80px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #4e4b4b;
+}
+
+.symbol-container {
+    position: absolute;
+    top: 0;
+}
+
+.symbol {
+    width: 80px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffe19c;
+}
+
+#money {
+    font-size: large;
+}
